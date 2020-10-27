@@ -1,16 +1,16 @@
 {
-	"name": "nu-disco",
-	"displayName": "Nu Disco Theme",
-	"description": "A VS Code theme that boogies.",
-	"publisher": "dbanksdesign",
+	"name": "creamsicles-after-dark",
+	"displayName": "Creamsicles After Dark Theme",
+	"description": "Hanging out at midnight eating tangerine creamsicles and blue raspberry freezies.",
+	"publisher": "lastobelus",
 	"license": "MIT",
 	"version": "1.0.6",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dbanksdesign/nu-disco-vscode-theme"
+		"url": "https://github.com/lastobelus/creamsicles-after-dark-vscode-theme"
 	},
 	"bugs": {
-		"url": "https://github.com/dbanksdesign/nu-disco-vscode-theme/issues"
+		"url": "https://github.com/lastobelus/creamsicles-after-dark-vscode-theme/issues"
 	},
 	"engines": {
 		"vscode": "^1.38.0"
@@ -23,7 +23,7 @@
 		"publish": "vsce publish"
 	},
 	"galleryBanner": {
-		"color": "#0C001F",
+		"color": "#222129",
 		"theme": "dark"
 	},
 	"icon": "images/icon.png",
@@ -31,22 +31,17 @@
 		"Themes"
 	],
 	"keywords": [
-		"Nu Disco",
+		"Creamsicles After Dark",
 		"Dark Theme",
-		"Light Theme",
+		"Elixir",
 		"Style Dictionary"
 	],
 	"contributes": {
 		"themes": [
 			{
-				"label": "Nu Disco Dark",
+				"label": "Creamsicles After Dark",
 				"uiTheme": "vs-dark",
-				"path": "./build/nu-disco-dark.color-theme.json"
-			},
-			{
-				"label": "Nu Disco Light",
-				"uiTheme": "vs",
-				"path": "./build/nu-disco-light.color-theme.json"
+				"path": "./build/creamsicles-after-dark.color-theme.json"
 			}
 		]
 	},
@@ -55,9 +50,5 @@
 		"chokidar-cli": "^2.0.0",
 		"style-dictionary": "^2.8.2"
 	},
-	"__metadata": {
-		"id": "aebdc3e6-29b0-44bc-8c00-5a13c7c3164d",
-		"publisherDisplayName": "dbanksdesign",
-		"publisherId": "5602ea9d-f0b9-464f-84d7-7e88fa1be60c"
-	}
+	
 }

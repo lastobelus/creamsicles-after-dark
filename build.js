@@ -33,7 +33,7 @@ StyleDictionary.registerFormat({
   formatter: (dictionary, config) => {
     // VSCode theme JSON files have this structure
     const theme = {
-      "name": `Nu Disco ${config.themeType}`,
+      "name": `Creamsicles After Dark ${config.themeType}`,
       "type": config.themeType,
       "colors": {},
     }
@@ -68,7 +68,7 @@ StyleDictionary.registerFormat({
 // Iterate over each theme type and build with style dictionary
 // We will use the theme type to include design tokens from that theme
 // and also use it to create separate vs code theme files
-[`dark`, `light`].forEach((themeType) => {
+[`dark`].forEach((themeType) => {
   StyleDictionary.extend({
     // Style Dictionary will find all files defined in source and do a deep merge
     // on them. 
@@ -93,7 +93,7 @@ StyleDictionary.registerFormat({
         files: [{
           // The path the file will be created at. Make sure this matches
           // the file paths defined in the package.json
-          destination: `nu-disco-${themeType}.color-theme.json`,
+          destination: `creamsicles-after-dark-${themeType}.color-theme.json`,
           // The name of the custom format defined above
           format: `vsCodeTheme`
         }]
